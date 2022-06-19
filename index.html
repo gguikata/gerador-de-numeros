@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+    <title>Gerador de número</title>
+  </head>
+  <body>
+    <div class="fundo">
+      <div class="gerador">
+        <h1 class="title">Gerador de números</h1>
+        <h1 class="insert" id="resultado"></h1>
+        <h1 class="aleatorio">
+          Min<input class="input" id="min" type="number" />
+        </h1>
+        <h1 class="aleatorio">
+          Max<input class="input" id="max" type="number" />
+        </h1>
+
+        <button class="btn" onclick="aleatorio()">GERAR</button>
+        <button class="btn" onclick="clean()">APAGAR</button>
+        <button class="btn" onclick="decimal()">DECIMAL</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
